@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">JustTravelAway</string>
+    <string name="add_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="continent_europe">Europe</string>
+    <string name="continent_africa">Africa</string>
+    <string name="continent_america">America</string>
+    <string name="continent_asia">Asia</string>
+    <string name="no_locations_available">No Locations available!</string>
+    <string name="no_internet_connection">No Internet connection!</string>
+    <string name="icon_image">ICON IMAGE</string>
+    <string name="location_image">LOCATION IMAGE</string>
+    <string name="open">OPEN</string>
+    <string name="closed">CLOSED</string>
+    <string name="detail_error_message">Location data not available</string>
+    <string name="phone_number">Phone number:</string>
+    <string name="types">Types:</string>
+    <string name="user_ratings_total">User Ratings Total:</string>
+    <string name="website">Website:</string>
+</resources>

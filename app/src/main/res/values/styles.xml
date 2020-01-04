@@ -1,0 +1,134 @@
+<resources>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorWindowBackground</item>
+        <item name="android:colorBackground">@color/colorWindowBackground</item>
+    </style>
+
+    <!-- TabLayout Style. -->
+    <style name="TabLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="tabIndicatorColor">@color/colorWhite</item>
+        <item name="tabSelectedTextColor">@color/colorWhite</item>
+        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+    </style>
+
+    <!-- TabLayout Text Appearance. -->
+    <style name="TabTextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+        <item name="android:textSize">@dimen/general_text_size_15</item>
+    </style>
+
+    <!-- Message Text Style. -->
+    <style name="MessageTextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/general_text_size_20</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Card View Style. -->
+    <style name="CardViewStyle">
+        <item name="android:layout_margin">@dimen/general_margin_15</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <!-- Location Name Text Style. -->
+    <style name="LocationNameTextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/general_text_size_13</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Location Address Text Style. -->
+    <style name="LocationAddressTextStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_marginTop">@dimen/general_margin_10</item>
+        <item name="android:textSize">@dimen/general_text_size_10</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Location Opening Text Style. -->
+    <style name="LocationOpeningTextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/general_margin_10</item>
+        <item name="android:textSize">@dimen/general_text_size_10</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+        <item name="android:gravity">end</item>
+    </style>
+
+    <!-- Location Detail Label Text Style. -->
+    <style name="LocationDetailLabelTextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/general_text_size_17</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Location Detail Value Text Style. -->
+    <style name="LocationDetailValueTextStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_marginTop">@dimen/general_margin_15</item>
+        <item name="android:textSize">@dimen/general_text_size_15</item>
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Location Name Widget Text Style. -->
+    <style name="LocationNameWidgetTextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/general_text_size_15</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:layout_margin">@dimen/general_margin_15</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Location Address Widget Text Style. -->
+    <style name="LocationAddressWidgetTextStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_margin">@dimen/general_margin_10</item>
+        <item name="android:textSize">@dimen/general_text_size_13</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Location Opening Widget Text Style. -->
+    <style name="LocationOpeningWidgetTextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">@dimen/general_margin_10</item>
+        <item name="android:textSize">@dimen/general_text_size_13</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+</resources>
