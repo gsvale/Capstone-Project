@@ -1,0 +1,158 @@
+
+                                                       
+                                                         
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true" android:tag="layout/activity_location_detail_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/location_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/general_margin_15"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/location_image_iv"
+                    android:layout_width="@dimen/location_image_size"
+                    android:layout_height="@dimen/location_image_size"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/location_image"
+                    android:src="@drawable/ic_location_icon" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/general_margin_30"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/LocationDetailLabelTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/phone_number"
+                             />
+
+                        <TextView
+                            style="@style/LocationDetailValueTextStyle"
+                            android:id="@+id/location_phone_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:focusable="true"
+                             />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/general_margin_30"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/LocationDetailLabelTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/types"
+                             />
+
+                        <TextView
+                            style="@style/LocationDetailValueTextStyle"
+                            android:id="@+id/location_types_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                             />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/general_margin_30"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/LocationDetailLabelTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/user_ratings_total"
+                             />
+
+                        <TextView
+                            style="@style/LocationDetailValueTextStyle"
+                            android:id="@+id/location_user_ratings_total_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                             />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/general_margin_30"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/LocationDetailLabelTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/website"
+                             />
+
+                        <TextView
+                            style="@style/LocationDetailValueTextStyle"
+                            android:id="@+id/location_website_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:focusable="true"
+                             />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/ad_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/general_margin_30"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/add_unit_id" />
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+        <ProgressBar
+            android:id="@+id/loading_pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+         

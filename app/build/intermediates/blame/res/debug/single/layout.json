@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Utilizador\\AndroidStudioProjects\\CapstoneProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_location_detail.xml",
+        "source": "C:\\Users\\Utilizador\\AndroidStudioProjects\\CapstoneProject\\app\\src\\main\\res\\layout\\activity_location_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Utilizador\\AndroidStudioProjects\\CapstoneProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_locations.xml",
+        "source": "C:\\Users\\Utilizador\\AndroidStudioProjects\\CapstoneProject\\app\\src\\main\\res\\layout\\fragment_locations.xml"
+    },
+    {
+        "merged": "C:\\Users\\Utilizador\\AndroidStudioProjects\\CapstoneProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\location_item_layout.xml",
+        "source": "C:\\Users\\Utilizador\\AndroidStudioProjects\\CapstoneProject\\app\\src\\main\\res\\layout\\location_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Utilizador\\AndroidStudioProjects\\CapstoneProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_location_list.xml",
+        "source": "C:\\Users\\Utilizador\\AndroidStudioProjects\\CapstoneProject\\app\\src\\main\\res\\layout\\activity_location_list.xml"
+    }
+]
