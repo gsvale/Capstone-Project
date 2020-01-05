@@ -148,7 +148,7 @@ public class LocationDetailActivity extends AppCompatActivity {
         mBinding.locationLl.setVisibility(View.GONE);
 
         // Initialize the SDK
-        Places.initialize(getApplicationContext(), BuildConfig.API_KEY);
+        Places.initialize(getApplicationContext(), getString(R.string.places_key));
 
         // Create a new Places client instance
         final PlacesClient placesClient = Places.createClient(this);

@@ -7,6 +7,7 @@ import androidx.annotation.Nullable;
 import androidx.loader.content.AsyncTaskLoader;
 
 import com.example.capstoneproject.BuildConfig;
+import com.example.capstoneproject.R;
 import com.example.capstoneproject.objects.Location;
 import com.example.capstoneproject.utils.ApiUtils;
 import com.example.capstoneproject.utils.HttpUtils;
@@ -71,7 +72,7 @@ public class LocationsLoader extends AsyncTaskLoader<List<Location>> {
                 .authority(ApiUtils.AUTHORITY)
                 .appendEncodedPath(ApiUtils.PATH)
                 .appendQueryParameter(ApiUtils.QUERY_TEXT, queryValue)
-                .appendQueryParameter(ApiUtils.QUERY_KEY, BuildConfig.API_KEY);
+                .appendQueryParameter(ApiUtils.QUERY_KEY, getContext().getString(R.string.places_key));
 
         return HttpUtils.fetchLocationsData(builder.build().toString());
     }

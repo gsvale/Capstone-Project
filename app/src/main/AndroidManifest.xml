@@ -21,7 +21,7 @@
         <!-- APP ID for Ads -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/ADS_KEY" />
+            android:value="@string/ads_key" />
 
         <activity
             android:name=".activities.LocationListActivity"
@@ -41,7 +41,6 @@
         </activity>
 
         <!-- Location Widget !-->
-
         <receiver android:name=".widget.LocationWidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />

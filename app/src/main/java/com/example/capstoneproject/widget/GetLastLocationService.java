@@ -1,38 +1,20 @@
 package com.example.capstoneproject.widget;
 
-import android.app.IntentService;
-import android.app.Notification;
+
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
-import android.util.Log;
-
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.JobIntentService;
-import androidx.core.content.ContextCompat;
-import androidx.databinding.Observable;
-import androidx.lifecycle.Lifecycle;
-import androidx.lifecycle.LifecycleObserver;
-import androidx.lifecycle.LifecycleOwner;
-import androidx.lifecycle.LifecycleRegistry;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.OnLifecycleEvent;
-import androidx.lifecycle.ViewModelProvider;
 
 import com.example.capstoneproject.database.RoomDatabase;
-import com.example.capstoneproject.models.LocationViewModel;
 import com.example.capstoneproject.objects.Location;
 
-import java.util.List;
 
 import static com.example.capstoneproject.objects.Location.LAST_SEEN_LOCATION_ID;
 
 public class GetLastLocationService extends JobIntentService{
-
-    public static final String GET_LAST_LOCATION_SERVICE_TAG = GetLastLocationService.class.getSimpleName();
 
     public static final int JOB_ID = 1;
 
